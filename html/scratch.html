@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Hobby</title>
+    <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/customstyle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="button-container">
+        <a href="../index.html" class="button">Home</a>
+        <a href="scratch.html" class="button">Scratch</a>
+        <a href="aiwebapp.html" class="button">Game</a>
+    </div>
+    <header>
+        <div class="site-heading">
+            <h1>Faker</h1>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Introduction</h2>
+            <img class="img-mystyle" src="../assets/img/fakerback.webp" alt="zi" />
+            <p>Faker (real name: Lee Sang-hyeok, born May 7, 1996) is a South Korean professional League of Legends
+                player. He plays as a mid laner for T1.
+            </p>
+        </section>
+
+        <section class="details">
+            <h2>Accomplishments</h2>
+            <p>
+                <img class="img-fluid" src="../assets/img/jofgk.jpg" alt="t1" />
+                <br><br>
+            <ul>
+                <li>
+                    5 World Championships, 2 Runner-Ups, 2 MSI Championships, 2 Runner-Ups, 10 LCK Championships, 6
+                    Runner-Ups.
+                </li>
+                <li>
+                    World No. 1 in cumulative prize money for LoL esports pro-gamers.
+                </li>
+                <li>
+                    Winned two major international tournaments, MSI and Worlds, and achieved the non-calendar and career
+                    Grand Slams based on official Riot Games tournaments from 2015 Summer to 2015 Worlds to 2016 Spring
+                    to 2016 MSI, which only a few people have achieved so far.
+                </li>
+                <li>
+                    Achieved a Riot Games major international tournament poppet and achieved Worlds repeats twice and
+                    MSI repeats.
+                </li>
+                <li>
+                    Advanced to the Worlds finals twice in a row, and advanced to the finals a total of 7 times.
+                </li>
+                <li>
+                    Achieved the most wins and kills at Worlds.
+                </li>
+                <li>
+                    T1's only one-club man and franchise star.
+                </li>
+                <li>
+                    Winner of the inaugural Esports World Cup and gold medalist at the 2022 Hangzhou Asian Games.
+                </li>
+            </ul>
+            </p>
+        </section>
+        <section class="details">
+            <h2>Famous Moments of Faker</h2>
+            <div class="post-preview">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jwLEJIoz-Yg?si=SNwS57-uE5LRl66-"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <br><br>
+        </section>
+    </main>
+
+    <!--I got help from AI to make fancier button haha!-->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+    <script>
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+    <h3>Sorry this is not related to Faker, but it's a graph! Check it out!</h3>
+    <div class='tableauPlaceholder' id='viz1733899384872' style='position: relative;'><noscript><a href='#'><img
+                    alt='Story 1 '
+                    src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExploreAirlineDataFINALSueGrist2017-06-05&#47;Story1&#47;1_rss.png'
+                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='ExploreAirlineDataFINALSueGrist2017-06-05&#47;Story1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ex&#47;ExploreAirlineDataFINALSueGrist2017-06-05&#47;Story1&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object></div>
+    <script
+        type='text/javascript'>                    var divElement = document.getElementById('viz1733899384872'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1175px'; vizElement.style.height = '890px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</body>
+
+</html>
